@@ -1,0 +1,7 @@
+path: .
+train: null
+val: images
+names:
+  0: person
+  1: hard_hat
+  2: safety_vest

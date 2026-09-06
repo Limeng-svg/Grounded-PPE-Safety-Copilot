@@ -1,0 +1,53 @@
+{
+  "dataset_role": "development_only_not_final_test",
+  "image_count": 12,
+  "model": "yolov8s-worldv2.pt",
+  "prompts": [
+    "person",
+    "hard hat",
+    "safety vest"
+  ],
+  "ultralytics_version": "8.4.129",
+  "torch_version": "2.11.0+cu128",
+  "clip_revision": "68dce32140994dfcb645a1320c4ebdc034fc19fd",
+  "settings": {
+    "imgsz": 640,
+    "batch": 2,
+    "device": 0,
+    "workers": 0,
+    "conf": 0.001,
+    "iou": 0.5,
+    "max_det": 300,
+    "rect": false,
+    "augment": false,
+    "quantize": null,
+    "agnostic_nms": false,
+    "plots": true,
+    "save_json": true,
+    "verbose": true
+  },
+  "mAP50": 0.7031871995342075,
+  "mAP50_95": 0.40917430620403056,
+  "per_class": {
+    "person": {
+      "gt_boxes": 60,
+      "AP50": 0.9902360257445003,
+      "AP50_95": 0.6535709744806584
+    },
+    "hard_hat": {
+      "gt_boxes": 53,
+      "AP50": 0.857025769652132,
+      "AP50_95": 0.46532484641801497
+    },
+    "safety_vest": {
+      "gt_boxes": 37,
+      "AP50": 0.2622998032059902,
+      "AP50_95": 0.10862709771341823
+    }
+  },
+  "prediction_json_category_ids": {
+    "1": "person",
+    "2": "hard_hat",
+    "3": "safety_vest"
+  }
+}

@@ -5,9 +5,16 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
+.ipynb_checkpoints/
 runs/
 outputs/
-data/
 *.pt
+*.zip
 *.numbers
 *.xlsx.inspect.ndjson
+
+# Keep the small, versioned evaluation set. Ignore future large datasets by default.
+data/*
+!data/README.md
+!data/mini_eval/
+!data/mini_eval/**

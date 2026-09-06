@@ -1,0 +1,72 @@
+{
+  "dataset_role": "development_only_not_final_test",
+  "model": "yolov8s-worldv2.pt",
+  "prompts": [
+    "person",
+    "safety helmet",
+    "reflective safety vest"
+  ],
+  "image_count": 12,
+  "ground_truth_counts": {
+    "person": 60,
+    "hard_hat": 53,
+    "safety_vest": 37
+  },
+  "validation_map50": 0.7300499355208799,
+  "validation_map50_95": 0.41870269868722926,
+  "recall_target": 0.8,
+  "default_threshold": 0.25,
+  "candidates": [
+    {
+      "class_id": 0,
+      "class_name": "person",
+      "prompt": "person",
+      "max_f1_threshold": 0.12112112112112113,
+      "precision_at_max_f1": 0.9515132601195879,
+      "recall_at_max_f1": 0.9833333333333333,
+      "max_f1": 0.9671616436675683,
+      "precision_at_0_25": 0.9824033284962301,
+      "recall_at_0_25": 0.9305237426661142,
+      "f1_at_0_25": 0.9557600347874203,
+      "recall_80_available": true,
+      "recall_80_threshold": 0.5595595595595596,
+      "precision_at_recall_80": 1.0,
+      "recall_at_recall_80": 0.8003534630444352,
+      "f1_at_recall_80": 0.8891070331167313
+    },
+    {
+      "class_id": 1,
+      "class_name": "hard_hat",
+      "prompt": "safety helmet",
+      "max_f1_threshold": 0.014014014014014014,
+      "precision_at_max_f1": 0.8698159379537407,
+      "recall_at_max_f1": 0.8825154027590458,
+      "max_f1": 0.876119652687647,
+      "precision_at_0_25": 1.0,
+      "recall_at_0_25": 0.5775100605539099,
+      "f1_at_0_25": 0.7321792424590043,
+      "recall_80_available": true,
+      "recall_80_threshold": 0.062062062062062065,
+      "precision_at_recall_80": 0.9339177028509006,
+      "recall_at_recall_80": 0.8000606597570079,
+      "f1_at_recall_80": 0.8618225343687259
+    },
+    {
+      "class_id": 2,
+      "class_name": "safety_vest",
+      "prompt": "reflective safety vest",
+      "max_f1_threshold": 0.0,
+      "precision_at_max_f1": 0.31343283582089554,
+      "recall_at_max_f1": 0.5675675675675675,
+      "max_f1": 0.4038461538461538,
+      "precision_at_0_25": 0.7661521066735544,
+      "recall_at_0_25": 0.05405405405405406,
+      "f1_at_0_25": 0.10098345847834522,
+      "recall_80_available": false,
+      "recall_80_threshold": null,
+      "precision_at_recall_80": null,
+      "recall_at_recall_80": null,
+      "f1_at_recall_80": null
+    }
+  ]
+}

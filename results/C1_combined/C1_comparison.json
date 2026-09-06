@@ -1,0 +1,49 @@
+{
+  "experiment": "C1",
+  "dataset_role": "development_only_not_final_test",
+  "prompts": [
+    "person",
+    "safety helmet",
+    "reflective safety vest"
+  ],
+  "model": "yolov8s-worldv2.pt",
+  "mAP50": 0.7300499355208799,
+  "mAP50_95": 0.41870269868722926,
+  "per_class": {
+    "person": {
+      "AP50": 0.9899912071613962,
+      "AP50_95": 0.6491865693128585
+    },
+    "hard_hat": {
+      "AP50": 0.9012510292375078,
+      "AP50_95": 0.4831699211186157
+    },
+    "safety_vest": {
+      "AP50": 0.2989075701637356,
+      "AP50_95": 0.12375160563021374
+    }
+  },
+  "validation_settings": {
+    "imgsz": 640,
+    "batch": 2,
+    "device": 0,
+    "workers": 0,
+    "conf": 0.001,
+    "iou": 0.5,
+    "max_det": 300,
+    "rect": false,
+    "augment": false,
+    "agnostic_nms": false,
+    "plots": true,
+    "save_json": true,
+    "verbose": true
+  },
+  "run_dir": "/content/drive/MyDrive/Grounded-PPE-Safety-Copilot/outputs/prompt_combined/20260906T074745_881570Z/C1",
+  "comparison_percentage_points": {
+    "person_vs_A0": -0.43527099871415453,
+    "hard_hat_vs_A0": 1.7845074718615683,
+    "hard_hat_vs_H1": -0.08004989813843455,
+    "safety_vest_vs_A0": 1.5075016730213746,
+    "safety_vest_vs_V2": -0.842195076978626
+  }
+}

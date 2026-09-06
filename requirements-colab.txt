@@ -1,0 +1,2 @@
+ultralytics==8.4.129
+git+https://github.com/ultralytics/CLIP.git@68dce32140994dfcb645a1320c4ebdc034fc19fd
