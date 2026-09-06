@@ -1,0 +1,26 @@
+[
+  {
+    "image": "ppe_easy_compliant (1).jpg",
+    "total_detections": 1,
+    "class_counts": {
+      "person": 1
+    },
+    "average_confidence": 0.92073
+  },
+  {
+    "image": "ppe_hard_crowded (1).jpg",
+    "total_detections": 17,
+    "class_counts": {
+      "person": 17
+    },
+    "average_confidence": 0.6312041176470589
+  },
+  {
+    "image": "ppe_medium_violation (1).jpg",
+    "total_detections": 1,
+    "class_counts": {
+      "person": 1
+    },
+    "average_confidence": 0.868
+  }
+]

@@ -1,0 +1,4 @@
+image,detected_person,detected_hard_hat,detected_safety_vest,expected_person,expected_hard_hat,expected_safety_vest,false_positive_notes,false_negative_notes,scene_difficulty,comments
+ppe_easy_compliant (1).jpg,1,0,0,1,1,1,none,"1 hard hat and 1 safety vest missed",easy,"person detected correctly; PPE detection failed"
+ppe_hard_crowded (1).jpg,17,0,0,19,15,14,none,"2 persons, 15 hard hats, and 14 safety vests missed",hard,"crowding, small objects, occlusion, and edge truncation; PPE counts include only visible items associated with identifiable persons; one severely truncated unassigned hard hat at the left edge is ignored"
+ppe_medium_violation (1).jpg,1,0,0,1,0,0,none,none,medium,"person detected correctly; hard hat and safety vest are absent"

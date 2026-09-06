@@ -1,0 +1,4 @@
+image,detected_person,detected_hard_hat,detected_safety_vest,expected_person,expected_hard_hat,expected_safety_vest,false_positive_notes,false_negative_notes,scene_difficulty,comments
+ppe_easy_compliant (1).jpg,1,0,0,,,,,,,
+ppe_hard_crowded (1).jpg,17,0,0,,,,,,,
+ppe_medium_violation (1).jpg,1,0,0,,,,,,,
